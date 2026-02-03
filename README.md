@@ -1,84 +1,82 @@
-# Online Kargo Takip Sistemi
+# Online Cargo Tracking System
 
-Bu proje, kullanıcı dostu bir kargo takip paneli oluşturmayı amaçlamaktadır. Çeşitli veri yapıları ve algoritmalar kullanılarak, müşteri ve kargo bilgilerini verimli bir şekilde yönetmek için geliştirilmiştir.
+This project aims to create a user-friendly cargo tracking panel. Developed to efficiently manage customer and cargo information using various data structures and algorithms.
 
-## Özellikler
+## Features
 
-- **Müşteri Yönetimi**: Kargo bilgileri ve gönderim geçmişi linked list yapısı ile yönetilir.
-- **Kargo Önceliklendirme**: Priority queue algoritması ile teslimat sürelerine göre önceliklendirme yapılır.
-- **Kargo Rotalama**: Tree veri yapısı kullanılarak optimal rotalar oluşturulur.
-- **Gönderim Geçmişi Sorgulama**: Stack veri yapısı ile son gönderim geçmişine hızlı erişim sağlanır.
-- **Durum Sorgulama**: Binary search ve quick sort algoritmaları ile kargo durumları sorgulanır ve sıralanır.
+- **Customer Management**: Cargo information and shipping history are managed using a linked list structure.
+- **Cargo Prioritization**: Prioritization is done based on delivery times using a priority queue algorithm.
+- **Cargo Routing**: Optimal routes are created using a tree data structure.
+- **Shipment History Querying**: Quick access to recent shipment history is provided using a stack data structure.
+- **Status Querying**: Cargo statuses are queried and sorted using binary search and quick sort algorithms.
 
-## Gerekli Bileşenler
+## Required Components
 
-1. **Backend**: Python 3.10 veya üzeri.
-2. **Frontend**: Qt Designer kullanılarak geliştirilmiş bir kullanıcı arayüzü.
+1. **Backend**: Python 3.10 or higher.
+2. **Frontend**: A user interface developed using Qt Designer.
 
-## Kurulum Talimatları
+## Installation Instructions
 
-### 1. Python Kurulumu
+### 1. Python Installation
 
-Projeyi çalıştırmak için Python 3.10 veya üzeri bir sürümün sisteminizde kurulu olduğundan emin olun.
+Ensure that Python 3.10 or a later version is installed on your system to run the project.
 
-- Python'u indirmek için: [Python Resmi Web Sitesi](https://www.python.org)
+- To download Python: [Python Official Website](https://www.python.org)
 
-### 2. Gerekli Kütüphanelerin Kurulumu
+### 2. Installing Required Libraries
 
-Gerekli Python kütüphanelerini kurmak için aşağıdaki komutu çalıştırın:
+Run the following command to install the required Python libraries:
 
-```bash
+```
 pip install -r requirements.txt
 ```
+### 3.Running the Code
 
-### 3. Kodun Çalıştırılması
+1. You can run the project by following the steps below:
 
-Aşağıdaki adımları takip ederek projeyi çalıştırabilirsiniz:
+Run the main.py file:
+```
+python main.py
+```
+2. When the application interface opens, you can select the necessary operations from the menu.
 
-1. `main.py` dosyasını çalıştırın:
-   ```bash
-   python main.py
-   ```
-2. Uygulama arayüzü açıldığında, menüden gerekli işlemleri seçebilirsiniz.
+## User Guide
 
-## Kullanım Kılavuzu
+**Customer Management**
 
-### Müşteri Yönetimi
+* Go to the "Add Customer" section to add a new customer.
 
-- Yeni bir müşteri eklemek için "Müşteri Ekle" bölümüne gidin.
-- Mevcut bir müşterinin gönderim geçmişini görüntülemek için müşteri ID'sini girerek "Geçmiş Sorgula" seçeneğini kullanın.
+* Use the "Query History" option by entering the customer ID to view the shipping history of an existing customer.
 
-### Kargo Önceliklendirme
+**Cargo Prioritization**
 
-- Gönderi bilgilerini girerek yeni bir kargo ekleyin.
-- "Kargo İşle" seçeneği ile en öncelikli kargoyu işleme alın.
+* Add a new cargo by entering the shipment details.
 
-### Kargo Rotalama
+* Process the highest priority cargo using the "Process Cargo" option.
 
-- Teslimat rotalarını görüntülemek için "Rota Göster" seçeneğini kullanın.
+**Cargo Routing**
 
-### Gönderim Geçmişi
+* Use the "Show Route" option to view delivery routes.
 
-- "Geçmiş Listele" seçeneği ile son gönderimlerinizi görüntüleyin.
+**Shipment History**
 
-### Durum Sorgulama
+* View your recent shipments with the "List History" option.
 
-- Teslim edilen veya edilmeyen kargoları sorgulamak için "Durum Sorgula" seçeneğini kullanın.
+**Status Querying**
 
+* Use the "Query Status" option to query delivered or undelivered cargo.
 
-## Katkıda Bulunma
+## Contributing
+If you would like to contribute, please follow the steps below:
 
-Katkıda bulunmak isterseniz, lütfen aşağıdaki adımları takip edin:
+1. Fork this repo.
 
-1. Bu repoyu forklayın.
-2. Yeni bir dal (branch) oluşturun: `git checkout -b feature/isim`
-3. Değişikliklerinizi yapın ve commit edin: `git commit -m 'Yeni özellik ekle'`
-4. Dallarınızı pushlayın: `git push origin feature/isim`
-5. Pull Request oluşturun.
+2. Create a new branch: git checkout -b feature/name
 
+3. Make your changes and commit: git commit -m 'Add new feature'
 
+4. Push your branches: git push origin feature/name
 
-Bu projede https://github.com/anjalp/Minimalistic-Flat-Modern-GUI-Template UI template'i kullanılmıștır
+5. Create a Pull Request.
 
-
-
+**The https://github.com/anjalp/Minimalistic-Flat-Modern-GUI-Template UI template was used in this project.**
