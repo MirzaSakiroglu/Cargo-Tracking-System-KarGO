@@ -1,4 +1,4 @@
-# Online Cargo Tracking System
+# Cargo Tracking System
 
 This project aims to create a user-friendly cargo tracking panel. Developed to efficiently manage customer and cargo information using various data structures and algorithms.
 
