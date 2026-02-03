@@ -1,6 +1,6 @@
 # Online Kargo Takip Sistemi
 
-Bu proje, kullanıcı dostu bir kargo takip paneli oluşturmayı amaçlamaktadır. Karmaşık veri yapıları ve algoritmalar kullanılarak, müşteri ve kargo bilgilerini verimli bir şekilde yönetmek için geliştirilmiştir.
+Bu proje, kullanıcı dostu bir kargo takip paneli oluşturmayı amaçlamaktadır. Çeşitli veri yapıları ve algoritmalar kullanılarak, müşteri ve kargo bilgilerini verimli bir şekilde yönetmek için geliştirilmiştir.
 
 ## Özellikler
 
